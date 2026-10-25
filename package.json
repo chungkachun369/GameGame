@@ -1,0 +1,23 @@
+{
+  "name": "river-chronicles-gods-of-the-nile",
+  "version": "6.0.0",
+  "private": true,
+  "description": "Editable two-mode 3D educational game with seven deity duels and textbook collection cards.",
+  "scripts": {
+    "dev": "python3 tools/dev.py",
+    "start": "python3 tools/dev.py",
+    "build": "python3 build.py",
+    "check": "node --check model.js && node --check scene.js && node --check game.js && node --check gods-data.js && node --check god-models.js && node --check gods.js",
+    "test": "npm run build && npm run check && npm run test:model",
+    "test:model": "node -e \"require('fs').mkdirSync('qa',{recursive:true})\" && node tests/model.test.cjs",
+    "test:browser": "node -e \"require('fs').mkdirSync('qa',{recursive:true})\" && node tests/curriculum.test.cjs && node tests/playable.test.cjs && node tests/visual.test.cjs && node tests/gods.test.cjs && node tests/gods-final.test.cjs && node tests/gods-camera.test.cjs && node tests/gods-release.test.cjs",
+    "setup:browser": "playwright install --with-deps chromium",
+    "build:art": "python3 tools/embed_art.py && python3 build.py"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

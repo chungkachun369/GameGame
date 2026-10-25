@@ -1,0 +1,195 @@
+{
+  "edition": "River Chronicles Gods v6 - Codespaces packaging",
+  "schemaVersion": 6,
+  "developmentPort": 8000,
+  "files": {
+    ".devcontainer/devcontainer.json": {
+      "bytes": 764,
+      "sha256": "b41217231635058656b13f5718163e467b5776822702b514cd0d5cd324072e32"
+    },
+    ".devcontainer/start.sh": {
+      "bytes": 196,
+      "sha256": "ea4456df7aef429e962d5c3e33349e9eff2f56fa015e645badd0d347bfe123eb"
+    },
+    ".gitignore": {
+      "bytes": 133,
+      "sha256": "e9e2e725bc4617c8e903c87880a89c5371aa2a27399115815c76538d89cc407f"
+    },
+    "ASSET-SOURCES.md": {
+      "bytes": 1525,
+      "sha256": "9298e5eec7fab7c20a93157b9cea501047ddd1edcf33bd49715274adab2f9f4f"
+    },
+    "README.md": {
+      "bytes": 6065,
+      "sha256": "500470442f1042a797d8a093bcc1110abe11f5bb3ed6bcb7cdaad6f157fbddf0"
+    },
+    "assets/gods/anubis.jpg": {
+      "bytes": 11277,
+      "sha256": "83cce2a42be4c0829b2f78675eed7a2fd95d4a5d025bd5ca91d93b35cb779c7b"
+    },
+    "assets/gods/apis.jpg": {
+      "bytes": 12494,
+      "sha256": "40b00ef7d2f7db8eacc713180378e373c69df44b22140f71b34fd7a9c60a6306"
+    },
+    "assets/gods/hapi.jpg": {
+      "bytes": 16523,
+      "sha256": "82fd09bb84f7947cf06245aca52a42838ac2bcb3bd8665d39694e80d3e85871e"
+    },
+    "assets/gods/isis.jpg": {
+      "bytes": 11277,
+      "sha256": "3702a26055facd8530aefe22fe2146e5172a28870f921b155130d0d650cfe96d"
+    },
+    "assets/gods/osiris.jpg": {
+      "bytes": 15712,
+      "sha256": "6bab38cb97edd56f979617ec1648d36d4421f0ba27b47c79adacfe11ef920ac8"
+    },
+    "assets/gods/ra.jpg": {
+      "bytes": 20893,
+      "sha256": "22439866e8a4fe1275395d6374e4ff97e8e6aabc5d75a5af9fc4102c92fc51df"
+    },
+    "assets/gods/shu.jpg": {
+      "bytes": 12265,
+      "sha256": "962fb7b048b5c192673744978b2b50741397e186d0cf25b23adeae5e352b3823"
+    },
+    "body.html": {
+      "bytes": 7231,
+      "sha256": "9b5a58c10fffea17f0d54b9d09135c4a4a1116b125aca81333f5ed9dd3d763b4"
+    },
+    "build.py": {
+      "bytes": 1570,
+      "sha256": "7d8d1ac3320a692443268d3cfee3d201a794bb019c8e5cb48fb382396a0480b9"
+    },
+    "curriculum.js": {
+      "bytes": 26900,
+      "sha256": "f452e41093e95f67cd147e1a2e6b3aa0a497975b472218d6e1e8db31b44a1dce"
+    },
+    "docs/CODESPACES-SERVER-TEST.json": {
+      "bytes": 240,
+      "sha256": "73b0e49789d99dbeb68cdd6a1ad3c91fe2880a26b07093bcbf1059f3f6424f56"
+    },
+    "docs/CODESPACES-SETUP.md": {
+      "bytes": 1777,
+      "sha256": "88d2da0e57824000a1defd0d83999cad3a5736d22d24cc7a6e3a82c28efada9a"
+    },
+    "docs/GODS-V6-TEST-REPORT.md": {
+      "bytes": 6495,
+      "sha256": "22ee1e37435f837e96832921c2ad41b951ea261fb457bf8cf0aa181a0bb306a8"
+    },
+    "docs/REPOSITORY-README-original.md": {
+      "bytes": 10,
+      "sha256": "b888cfb59b43b76ca8f314caecfed0a30462878d44c46aa2fbf4e02ae7c39a23"
+    },
+    "game.js": {
+      "bytes": 59076,
+      "sha256": "d2368f50c5a63f8b3063ad2accf256b9e4fc28cba6b1e0a0ab4d62f211f0a91b"
+    },
+    "god-art.js": {
+      "bytes": 134194,
+      "sha256": "347b4e7d9c283bd067edd2bdaec32ff867cc4fbc11b6c669158476c1aa045005"
+    },
+    "god-models.js": {
+      "bytes": 4144,
+      "sha256": "f707ddbce653072bc6a93e74ee716d474c00cf44907a768ca0bf123c2f38cd40"
+    },
+    "gods-data.js": {
+      "bytes": 5044,
+      "sha256": "386f2bb81188e30fef4e7e36af4d45686f93107e15da1aa32d3ed1723c4605f7"
+    },
+    "gods.js": {
+      "bytes": 21218,
+      "sha256": "111f2108abfd00710b4b7ce5f495f07e5c760a88b2aa4a2d4c1660fd1fbdc169"
+    },
+    "index.html": {
+      "bytes": 1291532,
+      "sha256": "706315dbb211cd0dbf42c88142fa71fc4b6a69177a44add3590cfd5fb4645d23"
+    },
+    "legacy-v4-fixture.json": {
+      "bytes": 415,
+      "sha256": "ccdaf1e1d562208dd09f0815e906118b5e6866b21fa2ce37df63e40160fe6cf3"
+    },
+    "model.js": {
+      "bytes": 13237,
+      "sha256": "080ccf7cd99ec058c39d387e39daffd6405bdc4f361216c3389d8b495c3dd907"
+    },
+    "package-lock.json": {
+      "bytes": 1826,
+      "sha256": "7d70cffbb1808fee1b1e6d448582e201573edb6dd0390ac2642560b879dcad53"
+    },
+    "package.json": {
+      "bytes": 1210,
+      "sha256": "57708d91a5a4527c2adfd38fec0ac136e35ae7d3aee5e7914115bdc1862ca037"
+    },
+    "practical-question-bank.json": {
+      "bytes": 2086,
+      "sha256": "9fe54d60db32cbbdc51a37750730390ae0d8171d0b59d1b46c030e64b47c2f20"
+    },
+    "question-bank.json": {
+      "bytes": 19200,
+      "sha256": "3f5f469876400b955ff9e5e05978ac74b481c8e1cab8d183b2090f738b524eb0"
+    },
+    "scene.js": {
+      "bytes": 46373,
+      "sha256": "b93ff03d2c84ae1e748c5f9f0d0a085f687e8b8c00ee6f8448f061c85b59c605"
+    },
+    "style.css": {
+      "bytes": 30944,
+      "sha256": "bce605782ae8d3d10f96c2dab45f19ce122ea23e44f82aa7820cf5008c38121e"
+    },
+    "term-bank.json": {
+      "bytes": 3009,
+      "sha256": "4ffba8002e060daf50d90fff690b6f11c365e944280eecb84f0c91a287ed7277"
+    },
+    "tests/curriculum.test.cjs": {
+      "bytes": 7517,
+      "sha256": "9a8778a08a81ab03580b01a8776a2288b1d74dd864df932e049739fdde5a0306"
+    },
+    "tests/gods-camera.test.cjs": {
+      "bytes": 1894,
+      "sha256": "07d68fbd8eb05f5602d31d30057cfd9e7a1dbe812e83b1783f123be86562e441"
+    },
+    "tests/gods-final.test.cjs": {
+      "bytes": 3832,
+      "sha256": "5714ed9729e8d2a2e475ba250158e8229e5988861ccf69c2f42b10eea1b6491f"
+    },
+    "tests/gods-release.test.cjs": {
+      "bytes": 2322,
+      "sha256": "be5c7ea1a2417571ae2765876870acc5b36bb2a6861af742e88c8b48c91ce04b"
+    },
+    "tests/gods.test.cjs": {
+      "bytes": 9564,
+      "sha256": "4c2ed796bc38b21b4e60e7b0733af3145f91dee3d675fa3e71e64d44f6998613"
+    },
+    "tests/model.test.cjs": {
+      "bytes": 5206,
+      "sha256": "d175ad85637a637840f14dd575ba154c4556316c30821771104458edbb7ed169"
+    },
+    "tests/playable.test.cjs": {
+      "bytes": 10613,
+      "sha256": "c6212b04aba94d078a890bdfbda7635af0a85cadc84412c7de9c9933b394588b"
+    },
+    "tests/visual.test.cjs": {
+      "bytes": 3096,
+      "sha256": "caf28ccabe9741c1ccf08b8345ea1fbc9be66f73c2991d2dbe59b78b71cb33ce"
+    },
+    "tools/dev.py": {
+      "bytes": 2647,
+      "sha256": "d3d4933535ad1690bcad66707f1833114c531721968843ededaffb75e15ed404"
+    },
+    "tools/embed_art.py": {
+      "bytes": 517,
+      "sha256": "9d7ed997cb569912ec3491ef2a0b9fb98423026fbebea6264283eb4cc8e8e05d"
+    },
+    "vendor/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    "vendor/three.module.min.js": {
+      "bytes": 687458,
+      "sha256": "f7cee3c7533449a1505cc12cb5128b89e3d4fd3d7ea62b05f9f5464a217472ee"
+    },
+    "world-question-bank.json": {
+      "bytes": 3885,
+      "sha256": "e4e793639a6004ad19b56dc3762a149bc2235d712c96689d957c3b726a9a3cb6"
+    }
+  }
+}

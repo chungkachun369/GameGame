@@ -1,0 +1,191 @@
+<main id="app">
+  <canvas
+    id="world"
+    aria-label="River Chronicles 3D world. WASD to walk, E to interact."
+    tabindex="0"
+  ></canvas>
+  <div id="loading" role="status">
+    <div class="spinner"></div>
+    <h1>River Chronicles</h1>
+    <p>Following the river…</p>
+  </div>
+  <section id="fatal" hidden role="alert">
+    <h1>The river is waiting</h1>
+    <p id="fatalText"></p>
+    <button onclick="location.reload()">Try again</button
+    ><button id="emergencyExport">Export saved progress</button>
+  </section>
+  <div id="hud" hidden>
+    <header class="topbar">
+      <button id="brand" aria-label="Open mode selection">
+        <span class="riverMark">≈</span
+        ><span
+          >RIVER CHRONICLES<small id="modeLabel">GUIDED JOURNEY</small></span
+        >
+      </button>
+      <div id="resources" aria-label="Available resources"></div>
+      <button id="menuBtn" class="iconBtn" aria-label="Open menu">
+        <span data-icon="menu"></span><span class="desktopText">Menu</span>
+      </button>
+    </header>
+    <section id="objective" aria-label="Current objective">
+      <div class="eyebrow" id="objectiveKicker"></div>
+      <h2 id="objectiveTitle"></h2>
+      <p id="objectiveText"></p>
+      <button id="trackBtn">Track destination <span>→</span></button>
+    </section>
+    <nav class="tools" aria-label="Game tools">
+      <button id="mapBtn" aria-label="Open map">
+        <span data-icon="map"></span><span>Map</span></button
+      ><button id="journalBtn" aria-label="Open journal">
+        <span data-icon="book"></span><span>Journal</span></button
+      ><button id="modeBtn" aria-label="Choose a game mode">
+        <span data-icon="switch"></span><span>Modes</span></button
+      ><button id="helpBtn" aria-label="Open help">
+        <span data-icon="help"></span><span>Help</span>
+      </button>
+    </nav>
+    <div id="worldLabels" aria-hidden="true"></div>
+    <div id="interaction">
+      <button id="interactBtn">
+        <kbd>E</kbd><span>Explore the riverbank</span>
+      </button>
+    </div>
+    <div id="touchMove" aria-label="Movement controls">
+      <button data-move="w" class="up" aria-label="Walk forward">↑</button
+      ><button data-move="a" class="left" aria-label="Walk left">←</button
+      ><button data-move="s" class="down" aria-label="Walk back">↓</button
+      ><button data-move="d" class="right" aria-label="Walk right">→</button>
+    </div>
+    <div id="cameraTools">
+      <button id="rotateLeft" aria-label="Rotate camera left">↶</button
+      ><button id="rotateRight" aria-label="Rotate camera right">↷</button
+      ><button id="zoomPlus" aria-label="Zoom in">+</button
+      ><button id="zoomMinus" aria-label="Zoom out">−</button
+      ><button id="runBtn" aria-pressed="false">Run</button>
+    </div>
+    <section id="builder" hidden aria-label="City building controls">
+      <div class="builderHeading">
+        <div>
+          <span class="eyebrow">YOUR NILE SETTLEMENT</span
+          ><strong id="cityInfo"></strong>
+        </div>
+        <button id="seasonBtn"></button>
+      </div>
+      <div id="buildCatalog" aria-label="Choose a building"></div>
+      <div class="buildPlan">
+        <div id="buildDescription"></div>
+        <div class="plotPicker">
+          <label
+            >Column
+            <select
+              id="plotCol"
+              aria-label="Building plot column"
+            ></select></label
+          ><label
+            >Row
+            <select id="plotRow" aria-label="Building plot row"></select
+          ></label>
+        </div>
+        <button id="placeBtn" class="gold">Place building</button
+        ><button id="inspectBtn">Inspect plot</button
+        ><button id="irrigateBtn">Water farms</button>
+      </div>
+    </section>
+    <div id="saveStatus" role="status"></div>
+  </div>
+  <div id="start" hidden>
+    <div class="startShade"></div>
+    <section class="startContent" aria-label="Choose a game mode">
+      <div class="eyebrow">A LIFE ALONG THE NILE · GODS EDITION</div>
+      <h1>River<br /><em>Chronicles</em></h1>
+      <p class="startLead">
+        Follow the river. Gather its stories.<br />Build a place to call home.
+      </p>
+      <div class="modeCards">
+        <button data-start="journey">
+          <span class="modeNum">01</span
+          ><span
+            ><strong>Guided Journey</strong
+            ><small>Meet residents and gods. Learn, explore and earn.</small
+            ><b id="journeyStartLabel">Begin journey →</b></span
+          ></button
+        ><button data-start="builder">
+          <span class="modeNum">02</span
+          ><span
+            ><strong>City Builder</strong
+            ><small>Shape a Nile settlement. Grow, store and trade.</small
+            ><b id="builderStartLabel">Found a settlement →</b></span
+          >
+        </button>
+      </div>
+      <div class="startFoot">
+        <button id="startHelp">Controls & help</button
+        ><button id="startImport">Import save</button
+        ><span id="startProgress"></span>
+      </div>
+    </section>
+    <div class="sceneCaption">
+      <span>THE NILE VALLEY</span><small>Where water becomes a world</small>
+    </div>
+  </div>
+  <div id="overlay" hidden>
+    <section
+      id="dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="dialogTitle"
+      tabindex="-1"
+    >
+      <button id="closeDialog" class="closeBtn" aria-label="Close dialog">
+        ×
+      </button>
+      <div id="dialogContent"></div>
+    </section>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="importFile" accept=".json,application/json" hidden />
+</main>
+<script>
+  window.gameBootTimer = setTimeout(() => {
+    if (!window.RIVER) {
+      document.getElementById("loading").hidden = true;
+      document.getElementById("fatal").hidden = false;
+      document.getElementById("fatalText").textContent =
+        "The 3D engine could not start. Check that your browser supports WebGL 2, then try again. Your saved data has not been deleted.";
+    }
+  }, 20000);
+  window.addEventListener("error", () => {
+    if (!window.RIVER) {
+      document.getElementById("loading").hidden = true;
+      document.getElementById("fatal").hidden = false;
+      document.getElementById("fatalText").textContent =
+        "The game could not finish loading. Try reloading in a browser with WebGL 2 support.";
+    }
+  });
+</script>
+<script>
+  document.getElementById("emergencyExport").onclick = function () {
+    try {
+      var s =
+        localStorage.getItem("river-chronicles-two-modes-v1") ||
+        localStorage.getItem("valley-four-civilisations-v4");
+      if (!s) {
+        document.getElementById("fatalText").textContent +=
+          " No saved progress was found in this browser.";
+        return;
+      }
+      var a = document.createElement("a"),
+        u = URL.createObjectURL(new Blob([s], { type: "application/json" }));
+      a.href = u;
+      a.download = "River-Chronicles-Recovery.json";
+      a.click();
+      setTimeout(function () {
+        URL.revokeObjectURL(u);
+      }, 5000);
+    } catch (e) {
+      document.getElementById("fatalText").textContent +=
+        " Storage could not be accessed.";
+    }
+  };
+</script>

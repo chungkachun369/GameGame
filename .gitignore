@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+qa/
+*.log
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/
+*.zip
+.DS_Store
+index.html.tmp

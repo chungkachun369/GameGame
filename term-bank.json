@@ -1,0 +1,101 @@
+{
+  "meso-2": {
+    "prompt": "A small country made up of a city and its surrounding villages was a ____.",
+    "answer": "city-state",
+    "accepted": [
+      "city-state",
+      "city state"
+    ],
+    "hint": "Recall the political unit described in the Sumer lesson."
+  },
+  "meso-7": {
+    "prompt": "Sumerian wedge-shaped writing pressed into clay is called ____.",
+    "answer": "cuneiform",
+    "accepted": [
+      "cuneiform"
+    ],
+    "hint": "Recall the name of the writing system, not the clay surface."
+  },
+  "meso-10": {
+    "prompt": "The Sumerian base-sixty number system is the ____.",
+    "answer": "sexagesimal system",
+    "accepted": [
+      "sexagesimal system"
+    ],
+    "hint": "Write the complete two-word term for the number system."
+  },
+  "egypt-3": {
+    "prompt": "The title of ancient Egypt’s supreme ruler was ____.",
+    "answer": "pharaoh",
+    "accepted": [
+      "pharaoh"
+    ],
+    "hint": "Write the ruler’s title, not an individual ruler’s name."
+  },
+  "egypt-7": {
+    "prompt": "Egyptians made a plant-based writing material called ____.",
+    "answer": "papyrus",
+    "accepted": [
+      "papyrus"
+    ],
+    "hint": "Recall the writing material, not the reed pen."
+  },
+  "egypt-8": {
+    "prompt": "The textbook calls Egyptian picture writing ____.",
+    "answer": "hieroglyphs",
+    "accepted": [
+      "hieroglyphs"
+    ],
+    "hint": "Use the plural noun in the textbook glossary."
+  },
+  "indus-2": {
+    "prompt": "Named after Harappa, the Indus Valley civilisation is also called ____.",
+    "answer": "Harappan civilisation",
+    "accepted": [
+      "Harappan civilisation",
+      "Harappan civilization"
+    ],
+    "hint": "Write the complete alternative name, including civilisation."
+  },
+  "indus-3": {
+    "prompt": "The Indus city whose plan shows a citadel and lower town is ____.",
+    "answer": "Mohenjo-daro",
+    "accepted": [
+      "Mohenjo-daro",
+      "Mohenjo daro"
+    ],
+    "hint": "Use the city name from the lesson’s town plan."
+  },
+  "indus-9": {
+    "prompt": "The crop used as a fibre for the Indus textiles in the lesson was ____.",
+    "answer": "cotton",
+    "accepted": [
+      "cotton"
+    ],
+    "hint": "Write the plant fibre, not the finished cloth."
+  },
+  "china-4": {
+    "prompt": "Succession of power from father to son is called the ____.",
+    "answer": "hereditary system",
+    "accepted": [
+      "hereditary system"
+    ],
+    "hint": "Recall the term for succession, not the system of land grants."
+  },
+  "china-5": {
+    "prompt": "The site at Anyang associated with the Shang capital is ____.",
+    "answer": "Yinxu",
+    "accepted": [
+      "Yinxu"
+    ],
+    "hint": "Recall the Shang site name, not Erlitou."
+  },
+  "china-6": {
+    "prompt": "The textbook term for writing carved on animal bones and tortoise shells is ____.",
+    "answer": "bone writing",
+    "accepted": [
+      "bone writing"
+    ],
+    "hint": "Use the two-word name of the writing system, not the name of the objects."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "meso:city": {
+    "prompt": "Where should a harvest intended to feed the urban population be delivered?",
+    "options": [
+      "The clay-firing workshop",
+      "The boat-building yard",
+      "The stone-carving area",
+      "The city’s food supply area"
+    ],
+    "answer": 3,
+    "explanation": "Fields supplied food to people living and working in the city."
+  },
+  "meso:dock": {
+    "prompt": "Where should goods assigned to river transport be delivered?",
+    "options": [
+      "The dock’s loading area",
+      "The workshop’s firing area",
+      "The city gate’s cart queue",
+      "The temple’s worship area"
+    ],
+    "answer": 0,
+    "explanation": "Boats receive trading goods at the dock; land transport uses a different handover point."
+  },
+  "meso:record": {
+    "prompt": "Which action best checks a completed delivery?",
+    "options": [
+      "Copy the expected amount without inspecting the goods",
+      "Count the containers without checking their contents",
+      "Compare the received goods with the written account",
+      "Record the cargo type without checking its quantity"
+    ],
+    "answer": 2,
+    "explanation": "Checking the record against the actual goods verifies both what was received and how much."
+  },
+  "egypt:store": {
+    "prompt": "Where should harvested grain for later city use be stored?",
+    "options": [
+      "In the boat-building yard",
+      "In the city storehouse",
+      "In the royal burial chamber",
+      "In the stone-cutting workshop"
+    ],
+    "answer": 1,
+    "explanation": "The storehouse, rather than a tomb or production area, holds the harvest for later use."
+  },
+  "egypt:record": {
+    "prompt": "After the grain reaches the storehouse, what should the scribe do?",
+    "options": [
+      "Enter the planned amount without counting receipts",
+      "Record the storage location but omit the amount",
+      "Copy last season’s total into the new account",
+      "Compare stored grain with the harvest account"
+    ],
+    "answer": 3,
+    "explanation": "Check the actual received harvest before finalising its account."
+  },
+  "indus:outlet": {
+    "prompt": "Where should the bathroom’s house-side drain discharge in this model?",
+    "options": [
+      "Back into the bathroom basin",
+      "Into a sealed indoor storage pit",
+      "Into the street drainage channel",
+      "Across the floor of a living room"
+    ],
+    "answer": 2,
+    "explanation": "A continuous connection to the street drain carries wastewater away from the house."
+  },
+  "china:context": {
+    "prompt": "Which context fits the carved bones and shells in this practical?",
+    "options": [
+      "Sumerian records studied with Ur evidence",
+      "Shang records studied with Yinxu evidence",
+      "Egyptian records studied with Memphis evidence",
+      "Indus records studied with Harappa evidence"
+    ],
+    "answer": 1,
+    "explanation": "The bones and shells in this practical belong to the Shang context, not the other three writing traditions."
+  },
+  "china:ritual": {
+    "prompt": "The object is identified as a bronze ritual vessel. Which display section fits its use?",
+    "options": [
+      "Vessels for ritual activities",
+      "Weapons for armed fighting",
+      "Ornaments for personal adornment",
+      "Tools for agricultural work"
+    ],
+    "answer": 0,
+    "explanation": "The identified ritual function, not the material alone, determines the display section."
+  },
+  "china:weapon": {
+    "prompt": "The object is identified as a bronze weapon. Which display section fits its use?",
+    "options": [
+      "Vessels for ritual activities",
+      "Ornaments for personal adornment",
+      "Tools for agricultural work",
+      "Weapons for armed fighting"
+    ],
+    "answer": 3,
+    "explanation": "This object is identified as a weapon; other bronze objects served other purposes."
+  }
+}

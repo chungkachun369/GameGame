@@ -1,0 +1,46 @@
+{
+  "meso": {
+    "prompt": "Which conclusion best fits the job clues you examined?",
+    "options": [
+      "Tools help identify jobs but do not establish equal status",
+      "Tools establish social rank without any other evidence",
+      "Shared work means all residents had equal political power",
+      "Different jobs mean households did not depend on others"
+    ],
+    "answer": 0,
+    "explanation": "A tool’s use is evidence about work, not proof of equal power or complete social rank."
+  },
+  "egypt": {
+    "prompt": "Which conclusion best fits the farming sequence you tested?",
+    "options": [
+      "Harvesting should precede sowing once water recedes",
+      "Farm work follows changes in river and land conditions",
+      "Floodwater should cover fields throughout crop growth",
+      "A finished harvest reaches city stores without transport"
+    ],
+    "answer": 1,
+    "explanation": "Successful farming follows the flood cycle and crop sequence, and harvested grain still needs delivery."
+  },
+  "indus": {
+    "prompt": "Which conclusion best fits the drainage connections you tested?",
+    "options": [
+      "A closed indoor loop carries wastewater out of the city",
+      "A bathroom’s outer wall alone proves drainage is connected",
+      "Connected house and street drains carry wastewater away",
+      "One working drain establishes every household’s routine"
+    ],
+    "answer": 2,
+    "explanation": "A continuous outward route supports wastewater removal, not claims about every household."
+  },
+  "china": {
+    "prompt": "Which conclusion best fits the records and objects you examined?",
+    "options": [
+      "Carved records verify every divination prediction as science",
+      "Using bronze proves vessels and weapons had one function",
+      "A model supplies exact translations of every carved sign",
+      "Shang records offer evidence of beliefs and record-keeping"
+    ],
+    "answer": 3,
+    "explanation": "Records provide sources for studying Shang beliefs and recording, not guaranteed predictions or invented translations."
+  }
+}
