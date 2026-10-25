@@ -1,0 +1,9 @@
+{
+  "passed": 4,
+  "checks": [
+    "HTTP preview serves built game",
+    "Repository internals and dotfiles blocked",
+    "Saving editable source triggers an automatic rebuild",
+    "Restored source rebuilds matching standalone HTML"
+  ]
+}

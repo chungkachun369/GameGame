@@ -1,0 +1,442 @@
+{
+  "meso-1": {
+    "prompt": "Which pair of natural features best explains farming settlements between the Euphrates and Tigris?",
+    "options": [
+      "Desert sand and exposed rock",
+      "River water and fertile riverbanks",
+      "Mountain slopes and thin soil",
+      "Salt water and coastal dunes"
+    ],
+    "answer": 1,
+    "explanation": "River water supplied crops, while fertile riverbank soil supported farming."
+  },
+  "meso-2": {
+    "prompt": "Which description matches the Sumerian political unit studied in the lesson?",
+    "options": [
+      "A city separated politically from every village",
+      "An empire containing several conquered kingdoms",
+      "A village without an associated urban centre",
+      "A city together with its surrounding villages"
+    ],
+    "answer": 3,
+    "explanation": "The textbook defines a city-state as a small country comprising a city and its surrounding villages."
+  },
+  "meso-3": {
+    "prompt": "A worker catches fish for the settlement. Which object best fits this work?",
+    "options": [
+      "A fishing net",
+      "A writing tablet",
+      "A grain sickle",
+      "A pottery mould"
+    ],
+    "answer": 0,
+    "explanation": "Identify the job by the use of its tool, not by social rank or clothing."
+  },
+  "meso-4": {
+    "prompt": "Which issue is explicitly included in the laws carved on Hammurabi’s pillar?",
+    "options": [
+      "Calculating planting dates from star positions",
+      "Preparing bodies for burial and preservation",
+      "Repaying debts and settling property disputes",
+      "Recording offerings to a city’s protector god"
+    ],
+    "answer": 2,
+    "explanation": "The laws addressed property, debts, marriage and lawsuits. Religious and astronomical records are different source types."
+  },
+  "meso-5": {
+    "prompt": "What was the principal use of the Great Ziggurat at Ur?",
+    "options": [
+      "A tomb for an Egyptian ruler",
+      "A temple area for religious worship",
+      "A dock for loading trading boats",
+      "A wall for defending the city"
+    ],
+    "answer": 1,
+    "explanation": "The Great Ziggurat was associated with worship; it was not a pyramid tomb, dock or defensive wall."
+  },
+  "meso-6": {
+    "prompt": "Trading goods are assigned to a boat at the dock. Which destination best completes this handover?",
+    "options": [
+      "The river landing where boats are loaded",
+      "The city gate where carts leave by land",
+      "The workshop where clay vessels are fired",
+      "The field where grain is cut at harvest"
+    ],
+    "answer": 0,
+    "explanation": "Both land and water transport existed, but this particular handover is to a boat at the dock."
+  },
+  "meso-7": {
+    "prompt": "Which tool-and-surface combination was used to make Sumerian written records?",
+    "options": [
+      "Reed pen brushed over a papyrus roll",
+      "Chisel cut into an animal bone",
+      "Brush painted onto a cotton cloth",
+      "Reed pen pressed into a clay tablet"
+    ],
+    "answer": 3,
+    "explanation": "Cuneiform marks were pressed into clay with a reed tool. Do not confuse this with Egyptian papyrus or Shang bone writing."
+  },
+  "meso-8": {
+    "prompt": "What does the Epic of Gilgamesh directly provide evidence of?",
+    "options": [
+      "A legally binding set of property regulations",
+      "A dated register of daily grain deliveries",
+      "Stories and beliefs expressed in ancient literature",
+      "Measurements from repeated observations of stars"
+    ],
+    "answer": 2,
+    "explanation": "It is a literary source preserving myths and legends, not a law code, delivery register or astronomical log."
+  },
+  "meso-9": {
+    "prompt": "Which sequence best uses sky observations to plan farming?",
+    "options": [
+      "Observe the sky → keep records → plan seasonal work",
+      "Plan seasonal work → erase records → observe the sky",
+      "Keep records → ignore seasons → choose work at random",
+      "Harvest crops → set the season → begin observing"
+    ],
+    "answer": 0,
+    "explanation": "Repeated observations and records help identify seasonal patterns before work is planned."
+  },
+  "meso-10": {
+    "prompt": "Which modern example most clearly preserves a base-sixty division?",
+    "options": [
+      "A metre divided into one hundred centimetres",
+      "An hour divided into sixty minutes",
+      "A week divided into seven days",
+      "A year divided into twelve months"
+    ],
+    "answer": 1,
+    "explanation": "The sexagesimal system is based on sixty. Sixty minutes in an hour is the relevant link, not every division of time."
+  },
+  "egypt-1": {
+    "prompt": "After Nile floodwater receded, what condition helped farmers grow crops?",
+    "options": [
+      "Fields kept submerged throughout the growing season",
+      "Farmland covered by an increasing layer of salt",
+      "Exposed land with fertile soil left by flooding",
+      "Fields cut off from any available water supply"
+    ],
+    "answer": 2,
+    "explanation": "Receding floodwater exposed fertile soil. Crops still required sowing, water and care."
+  },
+  "egypt-2": {
+    "prompt": "Which farming sequence follows the recession of Nile floodwater?",
+    "options": [
+      "Sow seeds → tend crops → harvest grain",
+      "Harvest grain → sow seeds → tend crops",
+      "Tend crops → harvest grain → sow seeds",
+      "Sow seeds → harvest grain → tend crops"
+    ],
+    "answer": 0,
+    "explanation": "After water receded, farmers sowed and tended crops before harvesting. These options use the same stages in different orders."
+  },
+  "egypt-3": {
+    "prompt": "What did an Egyptian ruler’s double crown symbolise?",
+    "options": [
+      "Rule over Upper Egypt without Lower Egypt",
+      "Rule over Lower Egypt without Upper Egypt",
+      "Rule over Sumer rather than either Egyptian region",
+      "Rule over both Upper and Lower Egypt"
+    ],
+    "answer": 3,
+    "explanation": "The double crown symbolised the union of Upper and Lower Egypt, rather than rule over one alone."
+  },
+  "egypt-4": {
+    "prompt": "Which worker’s role best fits checking a written harvest account?",
+    "options": [
+      "A boatbuilder responsible for hulls",
+      "A scribe responsible for records",
+      "A potter responsible for storage jars",
+      "A farmer responsible for cutting grain"
+    ],
+    "answer": 1,
+    "explanation": "A scribe worked with written records. Other workers supported the economy but had different assigned duties."
+  },
+  "egypt-5": {
+    "prompt": "Which facility in the city was intended to hold the grain harvest?",
+    "options": [
+      "A shipyard for building boats",
+      "A tomb for burying a ruler",
+      "A city storehouse for grain supplies",
+      "A workshop for making tools"
+    ],
+    "answer": 2,
+    "explanation": "Storehouses held supplies. Shipyards, tombs and workshops served other main functions."
+  },
+  "egypt-6": {
+    "prompt": "Which label best matches the pyramids discussed in the lesson?",
+    "options": [
+      "City storehouses linked to grain deliveries",
+      "River docks linked to trading journeys",
+      "Public markets linked to daily exchange",
+      "Royal tombs linked to religious beliefs"
+    ],
+    "answer": 3,
+    "explanation": "The pyramids were associated with pharaohs’ tombs and religious beliefs, not ordinary grain storage or trade facilities."
+  },
+  "egypt-7": {
+    "prompt": "Which sequence correctly connects an Egyptian writing tool, surface and product?",
+    "options": [
+      "Reed pen → plant-based sheet → document",
+      "Reed pen → animal shell → document",
+      "Chisel → cotton sheet → document",
+      "Brush → clay tablet → document"
+    ],
+    "answer": 0,
+    "explanation": "Egyptian scribes used reed pens and papyrus to make documents. Other civilisations used different recording materials."
+  },
+  "egypt-8": {
+    "prompt": "Why was the Rosetta Stone useful for decipherment?",
+    "options": [
+      "It placed different stories in one script for comparison",
+      "It listed writing tools without any written passages",
+      "It enabled comparison of matching content in several scripts",
+      "It replaced written passages with pictures of objects"
+    ],
+    "answer": 2,
+    "explanation": "The same content in different scripts enabled comparison. Merely sharing an object or a script would not provide that same clue."
+  },
+  "egypt-9": {
+    "prompt": "Which statement describes the religious reason for preserving a body in ancient Egypt?",
+    "options": [
+      "The body was preserved to calculate the next river flood",
+      "The body was preserved because of beliefs about an afterlife",
+      "The body was preserved to record a sale of farmland",
+      "The body was preserved to train workers to build boats"
+    ],
+    "answer": 1,
+    "explanation": "Body preservation had religious meaning connected with the soul and afterlife; it was not a calendar or commercial record."
+  },
+  "egypt-10": {
+    "prompt": "Which feature belongs to the Egyptian solar calendar described in the lesson?",
+    "options": [
+      "A year organised into 360 days",
+      "A year organised into 354 days",
+      "A year organised into 300 days",
+      "A year organised into 365 days"
+    ],
+    "answer": 3,
+    "explanation": "The lesson identifies a 365-day solar calendar used to organise time and activities."
+  },
+  "indus-1": {
+    "prompt": "Which environmental feature helped support farming in the Indus Valley?",
+    "options": [
+      "Salty seawater beside coastal sand",
+      "Exposed rock above the river’s source",
+      "Fresh river water beside fertile land",
+      "Dry land beyond any water supply"
+    ],
+    "answer": 2,
+    "explanation": "River water and fertile riverbanks supported farming and settlement, rather than salt water or inaccessible water sources."
+  },
+  "indus-2": {
+    "prompt": "Which pair of cities belongs to the Indus Valley civilisation?",
+    "options": [
+      "Harappa and Mohenjo-daro",
+      "Ur and Babylon",
+      "Memphis and Thebes",
+      "Erlitou and Yinxu"
+    ],
+    "answer": 0,
+    "explanation": "Harappa and Mohenjo-daro are Indus cities. The other pairs belong to different civilisations."
+  },
+  "indus-3": {
+    "prompt": "In the lesson’s Indus city plan, where were the houses and markets situated?",
+    "options": [
+      "In the citadel’s public-building area",
+      "Inside the river channel",
+      "Outside the settlement’s inhabited area",
+      "In the lower town"
+    ],
+    "answer": 3,
+    "explanation": "The plan distinguishes lower-town houses and markets from the citadel and other spaces."
+  },
+  "indus-4": {
+    "prompt": "How would bricks of similar sizes help a building team?",
+    "options": [
+      "They make the bricks lighter regardless of material",
+      "They help builders coordinate the dimensions of walls",
+      "They make every house have the same owner",
+      "They make drains unnecessary inside the houses"
+    ],
+    "answer": 1,
+    "explanation": "Consistent dimensions help coordinate construction. Size alone does not determine weight, ownership or water facilities."
+  },
+  "indus-5": {
+    "prompt": "Which route allows wastewater to leave the house in the drainage model?",
+    "options": [
+      "Bathroom → house drain → street drain",
+      "Street drain → house drain → bathroom",
+      "Bathroom → house drain → indoor loop",
+      "Bathroom → sealed wall → closed room"
+    ],
+    "answer": 0,
+    "explanation": "The house drain must connect outwards to the street system, not reverse the flow, loop indoors or end at a sealed wall."
+  },
+  "indus-6": {
+    "prompt": "What conclusion is directly supported by remains of wells and baths at Indus sites?",
+    "options": [
+      "Residents all used one identical daily bathing routine",
+      "Residents left readable accounts of every bath user",
+      "Residents built shared facilities for daily water use",
+      "Residents used baths mainly to store harvested grain"
+    ],
+    "answer": 2,
+    "explanation": "The remains establish water facilities. They do not identify every user, prove a universal routine or turn baths into grain stores."
+  },
+  "indus-7": {
+    "prompt": "Which label accurately describes the present understanding of Indus seal writing?",
+    "options": [
+      "Its signs have a complete agreed translation",
+      "Its signs are known to use Egyptian demotic",
+      "Its signs are known to copy Shang bone writing",
+      "Its meaning is not yet fully understood"
+    ],
+    "answer": 3,
+    "explanation": "The writing is not yet fully understood. Do not invent translations or identify it as another civilisation’s script."
+  },
+  "indus-8": {
+    "prompt": "A trader wants to compare the weight of two lots of goods. Which equipment is most relevant?",
+    "options": [
+      "A reed pen together with a clay tablet",
+      "A spindle together with cotton thread",
+      "Scales together with sets of stone weights",
+      "A mould together with a stack of bricks"
+    ],
+    "answer": 2,
+    "explanation": "Scales and weights compare quantities by weight. Records, weaving and brick-making use other equipment."
+  },
+  "indus-9": {
+    "prompt": "Which sequence correctly describes making cloth from prepared fibre?",
+    "options": [
+      "Cloth → weaving → thread",
+      "Thread → weaving → cloth",
+      "Weaving → fibre → thread",
+      "Thread → cloth → fibre"
+    ],
+    "answer": 1,
+    "explanation": "Fibre is made into thread, then woven into cloth. Harvesting the crop precedes these textile-making stages."
+  },
+  "indus-10": {
+    "prompt": "Which need is most directly addressed by connecting house drains to street drains?",
+    "options": [
+      "Carrying household wastewater away from homes",
+      "Measuring goods exchanged at the market",
+      "Preserving signs carved onto trading seals",
+      "Making the dimensions of bricks consistent"
+    ],
+    "answer": 0,
+    "explanation": "The connected drains remove wastewater. Weights, seals and brick sizing address different tasks."
+  },
+  "china-1": {
+    "prompt": "Which evidence best supports diverse origins of early Chinese civilisation?",
+    "options": [
+      "A single site treated as the origin of every culture",
+      "Cultural sites across the Huanghe and Changjiang river valleys",
+      "One later capital used to date all earlier settlements",
+      "One legend used in place of all excavated materials"
+    ],
+    "answer": 1,
+    "explanation": "Sites from multiple river valleys support diverse origins; reducing all evidence to one site or story does not."
+  },
+  "china-2": {
+    "prompt": "Which pairing matches the examples of cultures and objects in the lesson?",
+    "options": [
+      "Liangzhu — Longshan black pottery",
+      "Yangshao — Shang bronze weapons",
+      "Longshan — Yangshao painted pottery",
+      "Liangzhu — carved jade objects"
+    ],
+    "answer": 3,
+    "explanation": "The lesson pairs Yangshao with painted pottery, Longshan with black pottery and Liangzhu with jade objects."
+  },
+  "china-3": {
+    "prompt": "Which sequence follows the lesson’s order of dynasties while retaining the need for evidence?",
+    "options": [
+      "Shang → Xia → compare sources",
+      "Xia → Shang → replace sources with legends",
+      "Xia → Shang → compare sources",
+      "Shang → Xia → replace sources with legends"
+    ],
+    "answer": 2,
+    "explanation": "Xia precedes Shang in the lesson. Knowing a sequence does not remove the need to compare sources."
+  },
+  "china-4": {
+    "prompt": "Which relationship best describes a feudal lord’s obligations after receiving land?",
+    "options": [
+      "The lord supplied tribute and support to the ruler",
+      "The lord replaced the ruler through an open election",
+      "The lord held land with no duties towards the ruler",
+      "The lord gave up land to become a hired craftsman"
+    ],
+    "answer": 0,
+    "explanation": "The lesson links land grants to obligations such as tribute, labour and military support. This is distinct from hereditary succession."
+  },
+  "china-5": {
+    "prompt": "Which activity best matches a workshop area at an early Chinese site?",
+    "options": [
+      "Burying rulers with associated grave goods",
+      "Conducting government business in a palace",
+      "Preparing meals inside a household living area",
+      "Making objects through specialised craft work"
+    ],
+    "answer": 3,
+    "explanation": "Workshops are associated with craft production. Tombs, palaces and houses represent different principal functions."
+  },
+  "china-6": {
+    "prompt": "Which material pair carried carved Shang records?",
+    "options": [
+      "Clay tablets and reed sheets",
+      "Animal bones and tortoise shells",
+      "Cotton cloth and woven linen",
+      "Stone weights and bronze moulds"
+    ],
+    "answer": 1,
+    "explanation": "The lesson identifies animal bones and tortoise shells as the recording materials."
+  },
+  "china-7": {
+    "prompt": "A record concerns offerings to ancestors. Which study topic best fits it?",
+    "options": [
+      "Religious beliefs and ritual practices",
+      "River drainage and bathroom connections",
+      "Brick dimensions and wall construction",
+      "Grain weights and market measurements"
+    ],
+    "answer": 0,
+    "explanation": "Ancestor offerings provide clues to beliefs and rituals, not direct evidence for drainage, bricks or measurement."
+  },
+  "china-8": {
+    "prompt": "A bronze object is identified as a ritual vessel by its form and context. Which display label fits?",
+    "options": [
+      "A weapon used in armed fighting",
+      "An ornament worn for decoration",
+      "A tool used in agricultural work",
+      "A vessel used in ritual activities"
+    ],
+    "answer": 3,
+    "explanation": "Shared material does not mean shared function. The identification here is a ritual vessel, not a weapon, ornament or farming tool."
+  },
+  "china-9": {
+    "prompt": "Why are repeated records of celestial events more useful than a single unsupported guess?",
+    "options": [
+      "They make every divination claim scientifically certain",
+      "They remove the need to observe later events",
+      "They allow observations across time to be compared",
+      "They show that weather was identical in every year"
+    ],
+    "answer": 2,
+    "explanation": "Repeated records support comparison and planning, not certainty for all predictions or an unchanging climate."
+  },
+  "china-10": {
+    "prompt": "Which exhibit label best supports a claim about ancient record-keeping?",
+    "options": [
+      "Bronze weapons prove how every household kept accounts",
+      "Bone-writing records provide useful sources for studying Shang history",
+      "Jade ornaments give a complete list of all city residents",
+      "Painted pottery proves every spoken word was recorded"
+    ],
+    "answer": 1,
+    "explanation": "Bone-writing records are relevant sources for record-keeping. The other objects do not establish those claims."
+  }
+}
